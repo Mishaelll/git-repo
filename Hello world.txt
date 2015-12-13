@@ -1,6 +1,6 @@
-print("Hello World!");
-print("Hello Michael!");
-print("Hello World!");
-blohello
-hi bro
-hi brominator
+print("Hello World!;");
+print("Hello Michael!;");
+print("Hello World!;");
+blohello;
+hi bro;
+hi brominator;
