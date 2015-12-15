@@ -39,8 +39,8 @@ namespace Snake
             else if (direction == Direction.LEFT)
                 x -= offset;
             else if (direction == Direction.UP)
-                y += offset;
-            else y -= offset;
+                y -= offset;
+            else y += offset;
         }
 
         public override string ToString()
@@ -52,6 +52,12 @@ namespace Snake
         {
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
+        }
+
+        public void Clear()
+        {
+            sym = ' ';
+            Draw();
         }
     }
 }
